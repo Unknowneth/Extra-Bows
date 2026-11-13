@@ -1,5 +1,8 @@
-Branches ending with "-mod" are mod versions of the mod\n
+Branches ending with "-mod" are mod versions of the mod
+
 Branches ending with "-datapack" are datapack versions of the mod
 
-Mod uses MIT license due to them using Yarn mappings\n
+
+Mod uses MIT license due to them using Yarn mappings
+
 Datapack is All Rights Reserved/No Copyright since they do not uses anything licensed
