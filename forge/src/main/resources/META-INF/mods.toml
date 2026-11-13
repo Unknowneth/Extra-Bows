@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "bows"
+version = "${version}"
+displayName = "Extra Bows"
+authors = "N0t_UN_Owen/NotUnaNancyOwen"
+description = '''
+Tiered Bows!
+'''
+#logoFile = ""
+
+[[dependencies.bows]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bows]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
