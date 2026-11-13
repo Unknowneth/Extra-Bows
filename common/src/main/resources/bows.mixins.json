@@ -1,0 +1,26 @@
+{
+  "required": false,
+  "package": "com.notunanancyowen.bows.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractSkeletonEntityMixin",
+    "BowAttackGoalMixin",
+    "ItemMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "PersistentProjectileEntityMixin",
+    "PiglinEntityMixin",
+    "PillagerEntityMixin",
+    "RangedWeaponItemMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin",
+    "ModelPredicateProviderRegistryAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

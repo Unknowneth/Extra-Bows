@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "bows:netherite_crossbow"
+  },
+  "addition": {
+    "item": "dragonloot:dragon_scale"
+  },
+  "result": {
+    "id": "dragonloot:dragon_crossbow"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

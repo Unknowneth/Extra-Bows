@@ -1,0 +1,22 @@
+{
+  "values": [
+    {
+      "id": "bows:copper_bow",
+      "required": false
+    },
+    "bows:stone_bow",
+    "bows:iron_bow",
+    "bows:golden_bow",
+    "bows:diamond_bow",
+    "bows:netherite_bow",
+    {
+      "id": "bows:copper_crossbow",
+      "required": false
+    },
+    "bows:stone_crossbow",
+    "bows:iron_crossbow",
+    "bows:golden_crossbow",
+    "bows:diamond_crossbow",
+    "bows:netherite_crossbow"
+  ]
+}

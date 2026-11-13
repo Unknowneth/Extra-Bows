@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "*": {
+      "item": "minecraft:copper_ingot"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "*#X",
+    "# X",
+    "*#X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bows:copper_bow"
+  }
+}
