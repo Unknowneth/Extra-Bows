@@ -1,6 +1,0 @@
-{
-    "parent": "ender_dragon_loot:item/dragon_bow",
-    "textures": {
-        "layer0": "ender_dragon_loot:item/dragon_bow_pulling_1"
-    }
-}

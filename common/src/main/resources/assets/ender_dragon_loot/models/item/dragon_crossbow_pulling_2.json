@@ -1,6 +1,0 @@
-{
-    "parent": "ender_dragon_loot:item/dragon_crossbow",
-    "textures": {
-        "layer0": "ender_dragon_loot:item/dragon_crossbow_pulling_2"
-    }
-}
