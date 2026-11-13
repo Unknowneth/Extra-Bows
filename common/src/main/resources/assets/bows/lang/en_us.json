@@ -1,0 +1,18 @@
+{
+  "item.minecraft.bow": "Wooden Bow",
+  "item.minecraft.crossbow": "Wooden Crossbow",
+  "item.bows.copper_bow": "Copper Bow",
+  "item.bows.diamond_bow": "Diamond Bow",
+  "item.bows.golden_bow": "Golden Bow",
+  "item.bows.iron_bow": "Iron Bow",
+  "item.bows.netherite_bow": "Netherite Bow",
+  "item.bows.stone_bow": "Stone Bow",
+  "item.bows.copper_crossbow": "Copper Crossbow",
+  "item.bows.diamond_crossbow": "Diamond Crossbow",
+  "item.bows.golden_crossbow": "Golden Crossbow",
+  "item.bows.iron_crossbow": "Iron Crossbow",
+  "item.bows.netherite_crossbow": "Netherite Crossbow",
+  "item.bows.stone_crossbow": "Stone Crossbow",
+  "attributes.bows.ranged_damage": "%s Ranged Damage",
+  "attributes.bows.strafe_speed": "%s Strafe Speed"
+}
