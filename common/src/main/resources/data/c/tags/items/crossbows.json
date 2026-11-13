@@ -1,0 +1,9 @@
+{
+  "values": [
+    "bows:stone_crossbow",
+    "bows:iron_crossbow",
+    "bows:golden_crossbow",
+    "bows:diamond_crossbow",
+    "bows:netherite_crossbow"
+  ]
+}
