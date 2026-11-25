@@ -1,15 +1,26 @@
 {
   "required": false,
-  "package": "com.notunanancyowen.mixin.bows",
+  "package": "com.notunanancyowen.bows.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "AbstractSkeletonEntityMixin",
+    "BlowpipeItemMixin",
     "BowAttackGoalMixin",
-    "ItemStackMixin",
+    "CrossbowAttackGoalMixin",
+    "CrossbowAttackTaskMixin",
+    "DartItemMixin",
     "LivingEntityMixin",
     "PersistentProjectileEntityMixin",
     "PiglinEntityMixin",
     "PillagerEntityMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerEntityMixin",
+    "ClientPlayerEntityMixin",
+    "HeldItemRendererMixin",
+    "IllagerEntityModelMixin",
+    "PiglinEntityModelMixin",
+    "SkeletonEntityModelMixin"
   ],
   "injectors": {
     "defaultRequire": 0
@@ -17,7 +28,5 @@
   "overwrites": {
     "requireAnnotations": true
   },
-  "client": [
-    "ClientPlayerEntityMixin"
-  ]
+  "minVersion": "0.8"
 }
