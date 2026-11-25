@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "bows",
+  "version": "${version}",
+  "name": "Extra Bows",
+  "description": "Tiered Bows!",
+  "authors": [
+    "N0t_UN_Owen/NotUnaNancyOwen"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/data-packs/extra-bows",
+    "sources": "https://github.com/Unknowneth/Extra-Bows"
+  },
+  "license": "MIT",
+  "icon": "assets/bows/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.notunanancyowen.fabric.bows.ExtraBowsFabric"
+    ]
+  },
+  "mixins": [
+    "bows.mixins.json",
+    "bows.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "mob-ai-tweaks": "*",
+    "mob_sideways_pathfinding_fix": "*",
+    "atlatl": "*",
+    "darts": "*"
+  }
+}
